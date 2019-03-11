@@ -1,2 +1,8 @@
 ---
 # tasks file for microk8s
+#
+
+- name: Install microk8s snap
+  snap:
+    name: microk8s
+    classic: true
